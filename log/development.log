@@ -1099,3 +1099,63 @@ Processing by ProductsController#index as */*
 Completed 200 OK in 373ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/products/1" for 127.0.0.1 at 2025-03-02 13:24:11 -0600
+  
+LoadError (cannot load such file -- /home/dyl/Documents/Project2-odin-shopping-cart/shopping_cart_api/config/routes.rb):
+  
+railties (8.0.1) lib/rails/application/routes_reloader.rb:64:in `load'
+railties (8.0.1) lib/rails/application/routes_reloader.rb:64:in `block in load_paths'
+railties (8.0.1) lib/rails/application/routes_reloader.rb:64:in `each'
+railties (8.0.1) lib/rails/application/routes_reloader.rb:64:in `load_paths'
+railties (8.0.1) lib/rails/application/routes_reloader.rb:25:in `reload!'
+railties (8.0.1) lib/rails/application/routes_reloader.rb:52:in `block in updater'
+activesupport (8.0.1) lib/active_support/file_update_checker.rb:85:in `execute'
+railties (8.0.1) lib/rails/application/routes_reloader.rb:34:in `execute'
+railties (8.0.1) lib/rails/application/finisher.rb:175:in `block (2 levels) in <module:Finisher>'
+activesupport (8.0.1) lib/active_support/callbacks.rb:406:in `instance_exec'
+activesupport (8.0.1) lib/active_support/callbacks.rb:406:in `block in make_lambda'
+activesupport (8.0.1) lib/active_support/callbacks.rb:178:in `block in call'
+activesupport (8.0.1) lib/active_support/callbacks.rb:667:in `block (2 levels) in default_terminator'
+activesupport (8.0.1) lib/active_support/callbacks.rb:666:in `catch'
+activesupport (8.0.1) lib/active_support/callbacks.rb:666:in `block in default_terminator'
+activesupport (8.0.1) lib/active_support/callbacks.rb:179:in `call'
+activesupport (8.0.1) lib/active_support/callbacks.rb:558:in `block in invoke_before'
+activesupport (8.0.1) lib/active_support/callbacks.rb:558:in `each'
+activesupport (8.0.1) lib/active_support/callbacks.rb:558:in `invoke_before'
+activesupport (8.0.1) lib/active_support/callbacks.rb:108:in `run_callbacks'
+activesupport (8.0.1) lib/active_support/execution_wrapper.rb:128:in `run'
+activesupport (8.0.1) lib/active_support/execution_wrapper.rb:124:in `run!'
+activesupport (8.0.1) lib/active_support/reloader.rb:122:in `run!'
+activesupport (8.0.1) lib/active_support/execution_wrapper.rb:77:in `block in run!'
+<internal:kernel>:90:in `tap'
+activesupport (8.0.1) lib/active_support/execution_wrapper.rb:74:in `run!'
+activesupport (8.0.1) lib/active_support/reloader.rb:64:in `run!'
+actionpack (8.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (8.0.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (8.0.1) lib/rails/rack/logger.rb:29:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/request_id.rb:34:in `call'
+rack (3.1.10) lib/rack/runtime.rb:24:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (8.0.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (8.0.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.10) lib/rack/sendfile.rb:114:in `call'
+actionpack (8.0.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (8.0.1) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/products/" for 127.0.0.1 at 2025-03-02 13:24:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/products"):
+  
